@@ -24,27 +24,3 @@ spec:
             project: tooling      
     repoURL: http://devxp-tech.github.io/helm-charts
     targetRevision: 0.1.5
-
-
-
-appName: cluster-bootstrap
-userGivenName: cluster-bootstrap
-destNamespace: argocd
-destServer: https://kubernetes.default.svc
-srcPath: ''
-repoURL: http://devxp-tech.github.io/helm-charts
-srcRepoURL: http://devxp-tech.github.io/helm-charts
-srcTargetRevision: '0.1.1'
-labels:
-exclude: ''
-include: ''
-helm:
-  chart: cluster-bootstrap
-  valueFiles: values
-  values: |-
-      global:
-        application: 
-          cluster: https://kubernetes.default.svc
-          project: tooling
-
-          
