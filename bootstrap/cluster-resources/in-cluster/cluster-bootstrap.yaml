@@ -23,7 +23,7 @@ spec:
               server: https://kubernetes.default.svc
             project: default      
     repoURL: http://devxp-tech.github.io/helm-charts
-    targetRevision: 0.1.9
+    targetRevision: 0.1.10
   syncPolicy:
     automated:
       prune: true
