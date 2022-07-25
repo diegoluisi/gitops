@@ -19,11 +19,11 @@ spec:
         global:
           application: 
             cluster: 
-              host: https://kubernetes.default.svc
-              alias: in-cluster
+              name: in-cluster
+              server: https://kubernetes.default.svc
             project: default      
     repoURL: http://devxp-tech.github.io/helm-charts
-    targetRevision: 0.1.7
+    targetRevision: 0.1.8
   syncPolicy:
     automated:
       prune: true
