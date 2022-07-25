@@ -20,7 +20,7 @@ spec:
           application: 
             cluster: 
               host: https://kubernetes.default.svc
-              alias: ops
+              alias: in-cluster
             project: tooling      
     repoURL: http://devxp-tech.github.io/helm-charts
     targetRevision: 0.1.5
