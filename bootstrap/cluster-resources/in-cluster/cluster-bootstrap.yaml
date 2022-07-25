@@ -23,7 +23,7 @@ spec:
               alias: in-cluster
             project: default      
     repoURL: http://devxp-tech.github.io/helm-charts
-    targetRevision: 0.1.6
+    targetRevision: 0.1.7
   syncPolicy:
     automated:
       prune: true
