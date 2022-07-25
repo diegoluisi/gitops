@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: default
-    server: https://kubernetes.default.svc
+    server: '{{server}}'
   project: default
   source:
     chart: cluster-bootstrap
@@ -19,7 +19,7 @@ spec:
         global:
           application: 
             cluster: 
-              host: https://kubernetes.default.svc
+              host: '{{server}}'
               alias: ops
             project: tooling      
     repoURL: http://devxp-tech.github.io/helm-charts
