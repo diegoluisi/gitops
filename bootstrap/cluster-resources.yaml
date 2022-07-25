@@ -23,7 +23,7 @@ spec:
             repoURL: ""
   - git:
       files:
-      - path: bootstrap/cluster-resources/*.yaml
+      - path: bootstrap/cluster-resources/cluster-bootstrap.yaml
       repoURL: https://github.com/diegoluisi/gitops.git
       requeueAfterSeconds: 20
       revision: ""
